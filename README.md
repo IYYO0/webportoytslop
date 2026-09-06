@@ -1,16 +1,40 @@
-# React + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A personal portfolio website to showcase my projects, skills, and contact information.
 
-Currently, two official plugins are available:
+## Screenshot
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![Portfolio Screenshot](./.github/screenshot.png)
 
-## React Compiler
+## Background
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project was built as a way to learn React and Tailwind CSS for the first time, following along with YouTube tutorials. The goal was to understand React fundamentals (components, props, state) and styling with Tailwind, while also ending up with a portfolio I can keep improving over time.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Landing page with a personal introduction
+- Project showcase section
+- Skills/tech stack section
+- Responsive design (works on both mobile and desktop)
+- Contact section to get in touch
+
+## Tech Stack
+
+- React
+- Vite
+- Tailwind CSS
+
+## Getting Started
+
+\`\`\`bash
+git clone https://github.com/IYYO0/webportoytslop.git
+cd webportoytslop
+npm install
+npm run dev
+\`\`\`
+
+Then open your browser at `http://localhost:5173` (or the port shown in your terminal).
+
+## Status
+
+Work in progress 🚧
