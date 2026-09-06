@@ -4,7 +4,7 @@ A personal portfolio website to showcase my projects, skills, and contact inform
 
 ## Screenshot
 
-![Portfolio Screenshot](github\screenshot.png)
+![Portfolio Screenshot](github/screenshot.png)
 
 ## Background
 
