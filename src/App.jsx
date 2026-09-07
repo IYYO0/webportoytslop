@@ -2,6 +2,7 @@ import dataImage from "./data";
 import { listTools, listProject } from "./data";
 import BlurText from "./components/BlurText";
 import ShinyText from "./components/ShinyText";
+import GlareHover from "./components/GlareHover";
 
 function App() {
   return (
@@ -31,14 +32,14 @@ function App() {
               disabled={false}
             />
           </h1>
-          <p className="text-base/loose mb-6 opacity-50">
+          <div className="text-base/loose mb-6 opacity-50">
             <BlurText
               text=" I have an interest in the fields of Programming and Design, particularly in Website development and Design such as Posters, Pamphlets, and Banners. This interest in these fields has been ongoing for more than 2 years across all areas."
-              delay={75}
+              delay={65}
               animateBy="words"
               direction="top"
             />
-          </p>
+          </div>
           <div className="flex items-center sm:gap-4 gap-2">
             <a
               href="#"
@@ -54,12 +55,24 @@ function App() {
             </a>
           </div>
         </div>
-        <img
-          src={dataImage.HeroImage2}
-          alt="Hero Image"
-          className="w-125 md:ml-auto rounded-2xl animate__animated animate__fadeInUp animate__delay-4s"
-          loading="lazy"
-        />
+        <div className="hero-image  md:ml-auto  rounded-2xl animate__animated animate__fadeInUp animate__delay-4s">
+          <GlareHover
+            glareColor="#ffffff"
+            glareOpacity={0.3}
+            glareAngle={-30}
+            glareSize={300}
+            transitionDuration={1200}
+            playOnce={false}
+            className=""
+          >
+            <img
+              src={dataImage.HeroImage2}
+              alt="Hero Image"
+              className="rounded-2xl w-125"
+              loading="lazy"
+            />
+          </GlareHover>
+        </div>
       </div>
 
       {/* About */}
