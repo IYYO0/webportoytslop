@@ -1,5 +1,7 @@
 import dataImage from "./data";
 import { listTools, listProject } from "./data";
+import BlurText from "./components/BlurText";
+import ShinyText from "./components/ShinyText";
 
 function App() {
   return (
@@ -16,13 +18,26 @@ function App() {
             <q>The code I typed came out of boredom.🥀</q>
           </div>
           <h1 className="text-5xl/tight font-bold mb-6 ">
-            Yo, I'm Muhammad Dario Eshan
+            <ShinyText
+              text="Yo, I'm Muhammad Dario Eshan"
+              speed={2}
+              delay={0}
+              color="#b5b5b5"
+              shineColor="#ffffff"
+              spread={120}
+              direction="left"
+              yoyo={false}
+              pauseOnHover={false}
+              disabled={false}
+            />
           </h1>
           <p className="text-base/loose mb-6 opacity-50">
-            I have an interest in the fields of Programming and Design,
-            particularly in Website development and Design such as Posters,
-            Pamphlets, and Banners. This interest in these fields has been
-            ongoing for more than 2 years across all areas.
+            <BlurText
+              text=" I have an interest in the fields of Programming and Design, particularly in Website development and Design such as Posters, Pamphlets, and Banners. This interest in these fields has been ongoing for more than 2 years across all areas."
+              delay={75}
+              animateBy="words"
+              direction="top"
+            />
           </p>
           <div className="flex items-center sm:gap-4 gap-2">
             <a
