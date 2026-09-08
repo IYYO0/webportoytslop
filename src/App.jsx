@@ -1,8 +1,10 @@
 import dataImage from "./data";
 import { listTools, listProject } from "./data";
-import BlurText from "./components/BlurText";
-import ShinyText from "./components/ShinyText";
-import GlareHover from "./components/GlareHover";
+import BlurText from "@/components/BlurText";
+import ShinyText from "@/components/ShinyText";
+import GlareHover from "@/components/GlareHover";
+import ScrollVelocity from "@/components/ScrollVelocity";
+import CountUp from "@/components/CountUp";
 
 function App() {
   return (
@@ -75,8 +77,19 @@ function App() {
         </div>
       </div>
 
+      <div className="sm:mt-32 mt-8 overflow-hidden w-screen relative left-1/2 right-1/2 -mx-[50.5vw]">
+        <ScrollVelocity
+          texts={["Scroll to Explore", "See My Work"]}
+          velocity={100}
+          className="custom-scroll-text"
+          numCopies={6}
+          damping={50}
+          stiffness={400}
+        />
+      </div>
+
       {/* About */}
-      <div className="about mt-32 py-10" id="about">
+      <div className="about mt-24 py-10" id="about">
         <div
           className="relative xl:w-2/3 lg:3/4 w-full mx-auto p-7 md:pt-14  bg-zinc-800 rounded-lg"
           data-aos="fade-up"
@@ -113,13 +126,31 @@ function App() {
             <div className="flex items-center gap-6">
               <div>
                 <h1 className="text-4xl mb-1">
-                  20<span className="text-[#a40606]">+</span>
+                  <CountUp
+                    from={0}
+                    to={20}
+                    separator=","
+                    direction="up"
+                    duration={1}
+                    className="count-up-text"
+                    delay={0}
+                  />
+                  <span className="text-[#a40606]">+</span>
                 </h1>
                 <p>Project Finished</p>
               </div>
               <div>
                 <h1 className="text-4xl mb-1">
-                  2<span className="text-[#a40606]">+</span>
+                  <CountUp
+                    from={0}
+                    to={3}
+                    separator=","
+                    direction="up"
+                    duration={1}
+                    className="count-up-text"
+                    delay={0}
+                  />
+                  <span className="text-[#a40606]">+</span>
                 </h1>
                 <p>Years of Experience</p>
               </div>

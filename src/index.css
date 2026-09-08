@@ -132,6 +132,5 @@
 body {
   font-family: "Poppins", sans-serif;
   color: #fcfaf9;
-  background-image: radial-gradient(circle, #3f3f4640 1px, transparent 1px);
-  background-size: 24px 24px;
+  background-image: radial-gradient(circle, #3f3f466d 1px, transparent 1px);
 }
