@@ -10,7 +10,7 @@ import StarBorder from "@/components/StarBorder";
 function App() {
   return (
     <>
-      <div className="hero grid md:grid-cols-2 py-10 items-center xl:gap-0 gap-6 grid-cols-1">
+      <div className="hero min-h-[calc(100vh-89.6987px)] grid sm:grid-cols-2 items-center xl:gap-0 gap-6 grid-cols-1">
         <div className="animate__animated animate__fadeInUp animate__delay-3s">
           <div className="flex items-center gap-3 mb-6 bg-zinc-800 w-fit p-4 rounded-2xl">
             <img
@@ -80,7 +80,7 @@ function App() {
         </div>
       </div>
 
-      <div className="sm:mt-32 mt-8 overflow-hidden w-screen relative left-1/2 right-1/2 -mx-[50.5vw]">
+      <div className="sm:mt-32 mt-26 overflow-hidden w-screen relative left-1/2 right-1/2 -mx-[50.5vw]">
         <ScrollVelocity
           texts={["Scroll to Explore", "See My Work"]}
           velocity={100}
@@ -92,7 +92,7 @@ function App() {
       </div>
 
       {/* About */}
-      <div className="about mt-24 py-10" id="about">
+      <div className="about mt-16 py-10" id="about">
         <div
           className="relative xl:w-2/3 lg:3/4 w-full mx-auto p-7 md:pt-14  bg-zinc-800 rounded-lg"
           data-aos="fade-up"

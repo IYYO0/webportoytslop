@@ -17,7 +17,7 @@ const Navbarr = () => {
   }, []);
 
   return (
-    <div className="navbar flex justify-between mt-7 sm:px-4  rounded-4xl items-center  sm:border sm:border-white/20 sm:bg-white/10 sm:backdrop-blur-md">
+    <div className="navbar flex justify-between mt-7 sm:px-4 rounded-2xl items-center sm:border sm:border-white/20 sm:bg-white/10 sm:backdrop-blur-md">
       <div className="logo">
         <h1 className="text-[#a40606] text-3xl font-bold p-1">Portofolio</h1>
       </div>
