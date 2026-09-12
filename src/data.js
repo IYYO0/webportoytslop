@@ -100,60 +100,55 @@ export const listTools = [
   },
 ];
 
-import Proyek1 from "/assets/proyek/proyek1.webp";
-import Proyek2 from "/assets/proyek/proyek2.webp";
-import Proyek3 from "/assets/proyek/proyek3.webp";
-import Proyek4 from "/assets/proyek/proyek4.webp";
-import Proyek5 from "/assets/proyek/proyek5.webp";
-import Proyek6 from "/assets/proyek/proyek6.webp";
+import Proyek1 from "../public/assets/proyek/proyek01.webp";
 
 export const listProject = [
   {
     id: 1,
     gambar: Proyek1,
-    nama: "Website Sekolah",
+    nama: "Project BUMN",
     desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["HTML", "CSS", "Javascript", "AOS"],
+    tools: ["HTML", "CSS", "Javascript"],
     dad: "200",
   },
   {
     id: 2,
-    gambar: Proyek2,
-    nama: "Company Profile",
+    gambar: Proyek1,
+    nama: "Project Tesla",
     desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["HTML", "CSS", "Javascript", "AOS", "Swiper", "Lightbox Gallery"],
+    tools: ["HTML", "CSS", "Javascript"],
     dad: "300",
   },
   {
     id: 3,
-    gambar: Proyek3,
-    nama: "Web Pernikahan 2.0",
+    gambar: Proyek1,
+    nama: "Project Microsoft",
     desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["Vite", "ReactJS", "TailwindCSS", "AOS"],
+    tools: ["HTML", "CSS", "Javascript"],
     dad: "400",
   },
   {
     id: 4,
-    gambar: Proyek4,
-    nama: "Website Course",
+    gambar: Proyek1,
+    nama: "Project Bloomberg",
     desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["Vite", "ReactJS", "Bootstrap", "AOS"],
+    tools: ["HTML", "CSS", "Javascript"],
     dad: "500",
   },
   {
     id: 5,
-    gambar: Proyek5,
-    nama: "Web Portfolio",
+    gambar: Proyek1,
+    nama: "Project BCA",
     desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["HTML", "CSS", "Javascript", "Bootsrap"],
+    tools: ["HTML", "CSS", "Javascript"],
     dad: "600",
   },
   {
     id: 6,
-    gambar: Proyek6,
-    nama: "Company Profile 2.0",
+    gambar: Proyek1,
+    nama: "Project WEB3",
     desk: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, laborum!",
-    tools: ["NextJS", "TailwindCSS", "Framermotion"],
+    tools: ["HTML", "CSS", "Javascript"],
     dad: "700",
   },
 ];

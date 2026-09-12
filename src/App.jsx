@@ -5,6 +5,7 @@ import ShinyText from "@/components/ShinyText";
 import GlareHover from "@/components/GlareHover";
 import ScrollVelocity from "@/components/ScrollVelocity";
 import CountUp from "@/components/CountUp";
+import StarBorder from "@/components/StarBorder";
 
 function App() {
   return (
@@ -43,18 +44,20 @@ function App() {
             />
           </div>
           <div className="flex items-center sm:gap-4 gap-2">
-            <a
-              href="#"
-              className="bg-[#a40606] p-4 rounded-2xl hover:bg-[#ab1e1e]"
-            >
+            <a href="" className=" rounded-2xl bg-[#a40606] py-4 px-4">
               Download CV <i className="ri-download-line ri-lg"></i>
             </a>
-            <a
+            <StarBorder
+              as="a"
               href="#project"
-              className="bg-zinc-800 p-4 rounded-2xl hover:bg-zinc-700"
+              color="white"
+              speed="5s"
+              thickness={1}
+              className="py-4 px-4 md:py-4 md:px-6"
+              backgroundColor="#27272a"
             >
               Lihat Proyek <i className="ri-arrow-down-line ri-lg"></i>
-            </a>
+            </StarBorder>
           </div>
         </div>
         <div className="hero-image  md:ml-auto  rounded-2xl animate__animated animate__fadeInUp animate__delay-4s">
